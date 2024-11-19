@@ -1,0 +1,16 @@
+{
+  "games":[
+    {
+      "title":"Retro Bowl", 
+      "link":"https://www.google.com/search?q=retrobowl"
+    },
+    {
+      "title":"Basketball Stars", 
+      "link":"https://www.google.com/search?q=basketball+stars"
+    },
+    {
+      "title":"Doge Miner", 
+      "link":"https://www.google.com/search?q=doge+miner"
+    }
+  ]
+}
