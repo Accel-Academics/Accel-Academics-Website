@@ -1,5 +1,5 @@
 {
-  "games":[
+  "html":[
     {
       "title":"Retro Bowl", 
       "link":"https://www.google.com/search?q=retrobowl"
@@ -11,6 +11,12 @@
     {
       "title":"Doge Miner", 
       "link":"https://www.google.com/search?q=doge+miner"
+    }
+  ],
+  "flash":[
+    {
+      "title":"Alien Hominid",
+      "link":"https://www.google.com/search?q=Alien+Hominid"
     }
   ]
 }

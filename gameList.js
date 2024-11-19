@@ -10,13 +10,22 @@ function fetchJSONData() {
     })
     .then((jsonData) =>
       {
-        // Build an item for every object in the array 
-        for (let x in jsonData.games) {
+        // Build an side nav item for every object each array
+        // HTML GAMES 
+        for (let x in jsonData.html) {
           gameListElement = document.createElement("a");
-          gameListElement.href = jsonData.games[x].link;
-          gameListElement.innerHTML = jsonData.games[x].title;
+          gameListElement.href = jsonData.html[x].link;
+          gameListElement.innerHTML = jsonData.html[x].title;
           document.getElementById("gameList").appendChild(gameListElement);
-          console.log("Created navItem: " + jsonData.games[x].title); // For Debugging
+          console.log("Created navItem: " + jsonData.html[x].title); // For Debugging
+        }
+        // FLASH GAMES
+        for (let x in jsonData.flash) {
+          gameListElement = document.createElement("a");
+          gameListElement.href = jsonData.flash[x].link;
+          gameListElement.innerHTML = jsonData.flash[x].title;
+          document.getElementById("gameList").appendChild(gameListElement);
+          console.log("Created navItem: " + jsonData.flash[x].title); // For Debugging
         }
       })
 }
