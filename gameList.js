@@ -16,7 +16,7 @@ function fetchJSONData() {
           gameListElement = document.createElement("a");
           gameListElement.href = jsonData.html[x].link;
           gameListElement.innerHTML = jsonData.html[x].title;
-          document.getElementById("gameList").appendChild(gameListElement);
+          document.getElementById("HTMLGameList").appendChild(gameListElement);
           console.log("Created navItem: " + jsonData.html[x].title); // For Debugging
         }
         // FLASH GAMES
@@ -24,7 +24,7 @@ function fetchJSONData() {
           gameListElement = document.createElement("a");
           gameListElement.href = jsonData.flash[x].link;
           gameListElement.innerHTML = jsonData.flash[x].title;
-          document.getElementById("gameList").appendChild(gameListElement);
+          document.getElementById("FlashGameList").appendChild(gameListElement);
           console.log("Created navItem: " + jsonData.flash[x].title); // For Debugging
         }
       })
