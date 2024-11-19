@@ -87,3 +87,22 @@ body {
   border-radius: 16px;
   background-color: var(--hover-color);
 }
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 32px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--hover-color); 
+  border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--foreground-container-color); 
+  border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--hover-color); 
+}
