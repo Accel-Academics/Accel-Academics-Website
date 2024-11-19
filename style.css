@@ -38,8 +38,9 @@ body {
 
 /* Side navigation */
 .sidenav {
+  overflow: auto;
   margin: 24px;
-  height: 100%;
+  max-height: 90vh;
   max-width: 250px;
   min-width: 250px;
   border-radius: 16px;
