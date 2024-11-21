@@ -1,5 +1,5 @@
 {
-  "html":[
+  "HTML":[
     {
       "title":"2048", 
       "link":"#"
@@ -113,10 +113,302 @@
       "link":"#"
     }
   ],
-  "flash":[
+  "FLASH":[
     {
       "title":"Alien Hominid",
-      "link":"https://www.google.com/search?q=Alien+Hominid"
+      "link":"#"
+    },
+    {
+      "title":"Bloxors",
+      "link":"#"
+    },
+    {
+      "title":"Dad n' Me",
+      "link":"#"
+    },
+    {
+      "title":"Fancy Pants Adventure",
+      "link":"#"
+    },
+    {
+      "title":"Henry Stickmin 1 - Breaking the Bank",
+      "link":"#"
+    },
+    {
+      "title":"Henry Stickmin 2 - Escaping the Prison",
+      "link":"#"
+    },
+    {
+      "title":"Henry Stickmin 3 - Stealing the Diamond",
+      "link":"#"
+    },
+    {
+      "title":"Henry Stickmin 4 - Infiltrating the Airship",
+      "link":"#"
+    },
+    {
+      "title":"Impossible Quiz",
+      "link":"#"
+    },
+    {
+      "title":"Interactive Buddy",
+      "link":"#"
+    },
+    {
+      "title":"Line Rider",
+      "link":"#"
+    },
+    {
+      "title":"Madness Interactive",
+      "link":"#"
+    },
+    {
+      "title":"Papa's Burgeria",
+      "link":"#"
+    },
+    {
+      "title":"Papa's Pizzeria",
+      "link":"#"
+    },
+    {
+      "title":"Stick RPG",
+      "link":"#"
+    },
+    {
+      "title":"Storm the House",
+      "link":"#"
+    },
+    {
+      "title":"Super Smash Flash",
+      "link":"#"
+    },
+    {
+      "title":"The Sims",
+      "link":"#"
+    },
+    {
+      "title":"Whack Your Boss",
+      "link":"#"
+    },
+    {
+      "title":"Worlds Hardest Game",
+      "link":"#"
+    }
+  ],
+  "NDS":[
+    {
+      "title":"Animal Crossing Wild World",
+      "link":"#"
+    },
+    {
+      "title":"Lego Battles",
+      "link":"#"
+    },
+    {
+      "title":"Lego Star Wars: The Complete Saga",
+      "link":"#"
+    },
+    {
+      "title":"Mario Kart",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon Black",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon Black 2",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon Diamond",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon HeartGold",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon Pearl",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon Platinum",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon Soul Silver",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon White",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon White 2",
+      "link":"#"
+    }
+  ],
+  "GBA":[
+    {
+      "title":"Mario Kart Super Circuit",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon Emerald",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon Fire Red",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon Leaf Green",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon Ruby",
+      "link":"#"
+    },
+    {
+      "title":"Pokemon Sapphire",
+      "link":"#"
+    }
+  ],
+  "N64":[
+    {
+      "title":"007 Golden Eye",
+      "link":"#"
+    },
+    {
+      "title":"Legend of Zelda Ocarina of Time",
+      "link":"#"
+    },
+    {
+      "title":"Mario Kart 64",
+      "link":"#"
+    },
+    {
+      "title":"Mortal Kombat 4",
+      "link":"#"
+    },
+    {
+      "title":"Super Mario 64",
+      "link":"#"
+    },
+    {
+      "title":"Super Smash Brothers",
+      "link":"#"
+    }
+  ],
+  "NES":[
+    {
+      "title":"Contra",
+      "link":"#"
+    },
+    {
+      "title":"Kirby's Adventure",
+      "link":"#"
+    },
+    {
+      "title":"Legend of Zelda",
+      "link":"#"
+    },
+    {
+      "title":"Mega Man",
+      "link":"#"
+    },
+    {
+      "title":"Metal Gear",
+      "link":"#"
+    },
+    {
+      "title":"Metroid",
+      "link":"#"
+    },
+    {
+      "title":"Street Fighter 3",
+      "link":"#"
+    },
+    {
+      "title":"Super Mario Bros",
+      "link":"#"
+    }
+  ],
+  "SNES":[
+    {
+      "title":"Donkey Kong Country",
+      "link":"#"
+    },
+    {
+      "title":"Street Fighter 2 Turbo",
+      "link":"#"
+    },
+    {
+      "title":"Super Mario All Stars",
+      "link":"#"
+    },
+    {
+      "title":"Super Mario Kart",
+      "link":"#"
+    },
+    {
+      "title":"Super Mario World",
+      "link":"#"
+    },
+    {
+      "title":"Top Gear",
+      "link":"#"
+    },
+    {
+      "title":"Ultimate Mortal Kombat 3",
+      "link":"#"
+    }
+  ],
+  "JSDOS":[
+    {
+      "title":"Digger",
+      "link":"#"
+    },
+    {
+      "title":"Doom",
+      "link":"#"
+    },
+    {
+      "title":"Doom II",
+      "link":"#"
+    },
+    {
+      "title":"Grand Theft Auto",
+      "link":"#"
+    },
+    {
+      "title":"Mortal Kombat",
+      "link":"#"
+    },
+    {
+      "title":"Need for Speed",
+      "link":"#"
+    },
+    {
+      "title":"Oregon Trail",
+      "link":"#"
+    },
+    {
+      "title":"Sim City 2000",
+      "link":"#"
+    },
+    {
+      "title":"Test Drive",
+      "link":"#"
+    },
+    {
+      "title":"Ultimate Doom",
+      "link":"#"
+    },
+    {
+      "title":"Wolfenstein 3D",
+      "link":"#"
     }
   ]
 }
