@@ -7,7 +7,14 @@
 /* Add Game iFrame Function (Called when nav menu clicked) */
 
 function openGame(gameLink) {
-  console.log(gameLink);
+  document.getElementById("content").innerHTML = "";
+  var gameiframe = document.createElement("iframe");
+  gameiframe.style.border = "none";
+  gameiframe.style.margin = "0";
+  gameiframe.width = "100%";
+  gameiframe.height = "98%";
+  gameiframe.src = gameLink;
+  document.getElementById("content").appendChild(gameiframe);
 }
 
 /* Fullscreen Button Functionality */

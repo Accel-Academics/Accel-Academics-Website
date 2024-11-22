@@ -20,7 +20,6 @@ function fetchJSONData() {
           gameListElement.setAttribute("onClick", 'openGame("' + jsonData.HTML[x].link + '")');
           gameListElement.innerHTML = jsonData.HTML[x].title;
           document.getElementById("HTMLGameList").appendChild(gameListElement);
-          // console.log("Created navItem: " + jsonData.HTML[x].title); // For Debugging
           count++;
       }
         // FLASH GAMES
@@ -29,7 +28,6 @@ function fetchJSONData() {
           gameListElement.setAttribute("onClick", 'openGame("' + jsonData.FLASH[x].link + '")');
           gameListElement.innerHTML = jsonData.FLASH[x].title;
           document.getElementById("FlashGameList").appendChild(gameListElement);
-          // console.log("Created navItem: " + jsonData.FLASH[x].title); // For Debugging
           count++;
         }
         // NDS GAMES
@@ -38,7 +36,6 @@ function fetchJSONData() {
           gameListElement.setAttribute("onClick", 'openGame("' + jsonData.NDS[x].link + '")');
           gameListElement.innerHTML = jsonData.NDS[x].title;
           document.getElementById("NDSGameList").appendChild(gameListElement);
-          // console.log("Created navItem: " + jsonData.NDS[x].title); // For Debugging
           count++;
         }
         // GBA GAMES
@@ -47,7 +44,6 @@ function fetchJSONData() {
           gameListElement.setAttribute("onClick", 'openGame("' + jsonData.GBA[x].link + '")');
           gameListElement.innerHTML = jsonData.GBA[x].title;
           document.getElementById("GBAGameList").appendChild(gameListElement);
-          // console.log("Created navItem: " + jsonData.GBA[x].title); // For Debugging
           count++;
         }
         // N64 GAMES
@@ -56,7 +52,6 @@ function fetchJSONData() {
           gameListElement.setAttribute("onClick", 'openGame("' + jsonData.N64[x].link + '")');
           gameListElement.innerHTML = jsonData.N64[x].title;
           document.getElementById("N64GameList").appendChild(gameListElement);
-          // console.log("Created navItem: " + jsonData.N64[x].title); // For Debugging
           count++;
         }
         // NES GAMES
@@ -65,7 +60,6 @@ function fetchJSONData() {
           gameListElement.setAttribute("onClick", 'openGame("' + jsonData.NES[x].link + '")');
           gameListElement.innerHTML = jsonData.NES[x].title;
           document.getElementById("NESGameList").appendChild(gameListElement);
-          // console.log("Created navItem: " + jsonData.NES[x].title); // For Debugging
           count++;
         }
         // SNES GAMES
@@ -74,7 +68,6 @@ function fetchJSONData() {
           gameListElement.setAttribute("onClick", 'openGame("' + jsonData.SNES[x].link + '")');
           gameListElement.innerHTML = jsonData.SNES[x].title;
           document.getElementById("SNESGameList").appendChild(gameListElement);
-          // console.log("Created navItem: " + jsonData.SNES[x].title); // For Debugging
           count++;
         }
         // JSDOS GAMES
@@ -83,7 +76,6 @@ function fetchJSONData() {
           gameListElement.setAttribute("onClick", 'openGame("' + jsonData.JSDOS[x].link + '")');
           gameListElement.innerHTML = jsonData.JSDOS[x].title;
           document.getElementById("JSDOSGameList").appendChild(gameListElement);
-          // console.log("Created navItem: " + jsonData.JSDOS[x].title); // For Debugging
           count++;
         }
         let difference = new Date().getTime() - start; // final-initial=Δtime
