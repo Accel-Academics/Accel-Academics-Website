@@ -5,6 +5,7 @@
   --foreground-container-color: rgb(38, 41, 47);
   --hover-color: rgb(51, 54, 61);
   --text-color: rgb(176, 186, 197); /* Off white Color */
+  --max-height: 88vh;
 }
 
 * {
@@ -28,9 +29,11 @@ body {
 
 /* Main content */
 .content {
+  overflow: auto;
   margin: 24px;
   margin-left: 0px;
   width: 100%;
+  max-height: var(--max-height);
   background-color: var(--foreground-container-color);
   border-radius: 24px;
   padding: 24px;
@@ -40,7 +43,7 @@ body {
 .sidenav {
   overflow: auto;
   margin: 24px;
-  max-height: 88vh;
+  max-height: var(--max-height);
   max-width: 250px;
   min-width: 250px;
   border-radius: 16px;
