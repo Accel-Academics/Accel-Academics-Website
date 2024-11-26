@@ -11,9 +11,10 @@
     <div class="sidenav">
       <div class="sideNavCategory">
         <a href="/">Home</a>
-        <a href="#">About</a>
+        <a href="./">About</a>
         <a href="/search">Search</a>
         <a href="#">Email Updates</a>
+        <a id="fullscreenBtn">Fullscreen</a>
       </div>
       <div class="sideNavCategory">
         <h2>HTML Games</h2>
@@ -36,21 +37,31 @@
     </div>
 
     <div class="content">
-      <h1 style="font-size: 36px;"><u>About</u></h1>
-      <hr />
-      <br />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit nisi ex, et molestie velit semper et. Pellentesque venenatis nec arcu non sodales. Donec mattis lacinia aliquam. Sed non bibendum metus. Suspendisse maximus, nunc id commodo pellentesque, erat ex efficitur sapien, quis accumsan quam dui nec nisi. Nunc condimentum, elit eu vehicula sodales, erat tortor malesuada justo, et sagittis eros nulla in dui. In molestie placerat ante pulvinar tristique. Nulla maximus finibus urna id venenatis. Sed sed porta felis, et molestie mi. Praesent mattis ornare ultricies. Donec quis ligula odio. Aliquam at fringilla purus. Integer eget nibh est. Proin vel pellentesque ligula, id egestas nisl.
-      </p>
-      <p>
-        Morbi nisi magna, vestibulum vel ornare at, faucibus varius sem. Fusce eget scelerisque eros. Morbi ut accumsan nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices ultricies maximus. Fusce vestibulum pharetra pretium. Vivamus vitae interdum sem, ut bibendum arcu. Aliquam eget lectus ac purus cursus dictum. Proin ut commodo lacus. Maecenas non quam vel erat placerat rhoncus nec ut leo. Nulla nisl tellus, maximus id arcu non, accumsan aliquet arcu. Morbi pellentesque tortor quis semper lacinia.
-      </p>
-      <p>
-        Pellentesque purus sem, gravida non leo ut, volutpat convallis lacus. Donec sapien sem, vulputate eget neque at, dapibus commodo elit. Praesent molestie vitae nulla sed fermentum. Maecenas pretium pharetra ante. Mauris mollis, ipsum vel semper blandit, dui elit accumsan nulla, id faucibus orci purus nec tellus. Cras eu ex augue. Mauris tincidunt, neque rhoncus vehicula luctus, justo nulla mattis augue, ac rutrum purus arcu quis mauris. Ut ac diam id tortor mattis consequat eu non neque. Quisque ut ex ut diam venenatis viverra. Mauris pellentesque mi nec dapibus malesuada.
-      </p>
+      <div id="left">
+        <h1 style="font-size: 36px;"><u>About</u></h1>
+        <hr />
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit nisi ex, et molestie velit semper et. Pellentesque venenatis nec arcu non sodales. Donec mattis lacinia aliquam. Sed non bibendum metus. Suspendisse maximus, nunc id commodo pellentesque, erat ex efficitur sapien, quis accumsan quam dui nec nisi. Nunc condimentum, elit eu vehicula sodales, erat tortor malesuada justo, et sagittis eros nulla in dui. In molestie placerat ante pulvinar tristique. Nulla maximus finibus urna id venenatis. Sed sed porta felis, et molestie mi. Praesent mattis ornare ultricies. Donec quis ligula odio. Aliquam at fringilla purus. Integer eget nibh est. Proin vel pellentesque ligula, id egestas nisl.
+        </p>
+      </div>
+      <img id="right" src="https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder-1024x1024.png"/>
     </div>
     
   </body>
+  <style>
+    .content {
+      display: grid;
+      grid: 100% / auto auto;
+    }
+    #left {
+      margin-right: 24px;
+      width: 100%;
+    }
+    #right {
+      max-width: 100%;
+    }
+  </style>
   <script type="text/javascript" src="/index.js"></script>
   <script type="text/javascript" src="/gameList.js"></script>
 </html>
