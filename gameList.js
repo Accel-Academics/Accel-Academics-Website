@@ -1,6 +1,6 @@
 // Side Navigation Game List Builder
 function fetchJSONData() {
-  fetch("/games.json") // Fetch the json file
+  fetch("./games.json") // Fetch the json file
     .then((res) => {
       if (!res.ok) { 
         throw new Error
